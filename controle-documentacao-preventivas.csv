@@ -1,0 +1,11 @@
+Veículo,Item,Grupo,Vencimento,Limite (km),Hodômetro (km),Situação em 2026-11-25
+F-101,CIV,Documentação,2026-11-20,,,Vencido
+F-101,CIPP,Documentação,2026-12-07,,,A programar
+F-101,Preventiva,Manutenção,2026-12-29,145000,144500,A programar
+F-102,CRONO,Documentação,2026-12-29,,,Em dia
+F-102,IPEM,Documentação,2026-11-25,,,A programar
+F-102,Preventiva,Manutenção,,118000,118220,Vencido
+F-103,CIPP,Documentação,,,,Sem prazo
+F-103,Preventiva,Manutenção,,220000,,Sem hodômetro
+F-104,CIV,Documentação,2027-02-10,,,Em dia
+F-104,Preventiva,Manutenção,2027-02-12,267000,262400,Em dia
