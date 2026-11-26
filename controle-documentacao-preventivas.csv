@@ -1,11 +1,7 @@
-Veículo,Item,Grupo,Vencimento,Limite (km),Hodômetro (km),Situação em 2026-11-25
-F-101,CIV,Documentação,2026-11-20,,,Vencido
-F-101,CIPP,Documentação,2026-12-07,,,A programar
-F-101,Preventiva,Manutenção,2026-12-29,145000,144500,A programar
-F-102,CRONO,Documentação,2026-12-29,,,Em dia
-F-102,IPEM,Documentação,2026-11-25,,,A programar
-F-102,Preventiva,Manutenção,,118000,118220,Vencido
-F-103,CIPP,Documentação,,,,Sem prazo
-F-103,Preventiva,Manutenção,,220000,,Sem hodômetro
-F-104,CIV,Documentação,2027-02-10,,,Em dia
-F-104,Preventiva,Manutenção,2027-02-12,267000,262400,Em dia
+Base,Frota,Placa,Operação,CIV,CIPP,Cronotacógrafo,IPEM,KM atual,KM última preventiva,Próx. preventiva (km),Última revisão (data),KM faltante,Status preventiva,Próx. documento,Dias p/ documento,Status documentação
+BASE A,F-101,EXEMPLO-01,Distribuição,2026-11-20,2027-01-15,2026-12-15,2027-01-25,182400,160000,180000,2026-08-14,-2400,VENCIDA,2026-11-20,-5,VENCIDO
+BASE A,F-102,EXEMPLO-02,Transferência,2027-02-10,2026-12-22,,2027-01-12,218200,201000,221000,2026-09-18,2800,PRIORIDADE,2026-12-22,27,PRIORIDADE
+BASE A,F-103,EXEMPLO-03,Apoio,FALTANDO,CTPP,A INFORMAR,,114100,101000,121000,2026-10-06,6900,NORMAL,,,PENDÊNCIA
+BASE A,F-104,EXEMPLO-04,Distribuição,2027-02-01,2027-02-09,2027-01-19,2026-11-25,345000,325000,345000,2026-08-21,0,PRIORIDADE,2026-11-25,0,PRIORIDADE
+BASE B,F-105,EXEMPLO-05,Apoio,,,,,,140000,160000,2026-09-21,,,,,SEM DATA
+BASE B,F-106,EXEMPLO-06,Transferência,2026-11-07,2027-02-16,2027-02-09,2027-01-22,222500,200000,220000,2026-08-04,-2500,VENCIDA,2026-11-07,-18,VENCIDO
