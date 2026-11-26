@@ -10,6 +10,8 @@ Abra o [notebook](analise_de_frota.ipynb) para ver os dados, os cálculos e a li
 
 ## Documentação e preventivas
 
-Na rotina de frota, acompanho os vencimentos de CIV, CIPP, cronotacógrafo (CRONO) e IPEM e a programação de manutenção preventiva. A [base de exemplo em CSV](controle-documentacao-preventivas.csv) mostra como esses itens podem entrar no mesmo controle. Os veículos, datas e quilometragens da amostra são fictícios.
+Na rotina de frota, acompanho CIV, CIPP, cronotacógrafo e IPEM, junto com a programação das preventivas. A [base de exemplo em CSV](controle-documentacao-preventivas.csv) reproduz a estrutura do meu controle com uma linha por veículo e dados fictícios.
 
-Na demonstração, o item entra na programação quando faltam até 15 dias ou 1.000 km para o limite. Por exemplo, a preventiva do F-101 aparece como **A programar** porque faltam 500 km, embora o vencimento por data esteja a 34 dias. A amostra também separa os itens vencidos dos registros que precisam de prazo ou hodômetro.
+O saldo da preventiva é a quilometragem da última revisão mais **20.000 km**, menos o hodômetro atual. Com saldo negativo, a preventiva está vencida. Entre **0 e 3.000 km**, entra como prioridade. Para os documentos, o controle sinaliza prazos vencidos e vencimentos em até **30 dias**. Marcações como **FALTANDO**, **CTPP** e **A INFORMAR** ficam como texto e não entram no cálculo de dias.
+
+Na amostra de 25/11/2026, a preventiva do **F-102** tem saldo de **2.800 km** e o CIPP vence em **27 dias**. Os dois entram na programação pela regra do controle.
